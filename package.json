@@ -1,0 +1,20 @@
+{
+  "name": "Constructor-Word-Guess",
+  "version": "1.0.0",
+  "description": "A word guessing game will be created in CLI using constructor functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasengope/Constructor-Word-Guess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prasengope/Constructor-Word-Guess/issues"
+  },
+  "homepage": "https://github.com/prasengope/Constructor-Word-Guess#readme"
+}
