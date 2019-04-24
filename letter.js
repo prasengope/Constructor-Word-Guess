@@ -1,18 +1,26 @@
-function Letter(letter) {
-	
-	this.letter = letter;
+function Letter(value) {
+	this.letter = value;
 	this.guessed = false;
-	this.guessCheck = function(userInput) {
-		if (userInput === this.letter) {
-			this.guessed = true;
-		}
-	};
-
-	this.returnCharacter = function() {
+  
+	this.toString = function() {
+	  if (this.letter === " ") {
+		this.guessed = true;
+		return " ";
+	  } else {
 		if (this.guessed === false) {
-			return '_';
+		  return "_";
 		} else {
-			return this.letter;
+		  return this.letter;
 		}
+	  }
 	};
-}
+  
+	this.guess = function(guess) {
+	  if (guess === this.letter) {
+		this.guessed = true;
+	  }
+	};
+  }
+  
+  module.exports = Letter;
+  
