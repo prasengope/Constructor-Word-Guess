@@ -1,4 +1,5 @@
 function Letter(letter) {
+	
 	this.letter = letter;
 	this.guessed = false;
 	this.guessCheck = function(userInput) {
